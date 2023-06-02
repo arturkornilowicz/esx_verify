@@ -116,6 +116,8 @@ public interface ESXElementName {
     String QUALIFIED_SEGMENTS = "Qualified-Segments";
     String QUALIFYING_FORMULA = "Qualifying-Formula";
     String REDEFINE = "Redefine";
+    String REDEX = "Redex";
+    String REDUCT = "Reduct";
     String REDUCTION = "Reduction";
     String REGULAR_STATEMENT = "Regular-Statement";
     String RELATION_FORMULA = "Relation-Formula";

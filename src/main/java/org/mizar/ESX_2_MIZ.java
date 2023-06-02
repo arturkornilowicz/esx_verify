@@ -1600,9 +1600,9 @@ public class ESX_2_MIZ extends XMLApplication {
 
     public void processReduction(Element e) {
         n("reduce");
-        processTerm(e.elements().get(0));
-        n("to");
-        processTerm(e.elements().get(1));
+        processTerm(e.element(ESXElementName.REDEX).elements().get(0));
+        p("to");
+        processTerm(e.element(ESXElementName.REDUCT).elements().get(0));
     }
 
     public void processPropertyRegistration(Element e) {

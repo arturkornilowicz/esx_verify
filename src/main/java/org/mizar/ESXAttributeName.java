@@ -37,6 +37,7 @@ public interface ESXAttributeName {
     String POSITION = "position";
     String PROPERTY = "property";
     String RIGHTARGSBRACKETED = "rightargsbracketed";
+    String ROLE = "role";
     String SERIALNR = "serialnr";
     String SHAPE = "shape";
     String SORT = "sort";
