@@ -42,4 +42,4 @@ WORKDIR /app
 # Copy the project files into the docker image (see .dockerignore)
 COPY . .
 
-ENTRYPOINT ["/bin/sh", "process_mml.sh"]
+ENTRYPOINT ["/bin/sh", "esx_verify.sh"]

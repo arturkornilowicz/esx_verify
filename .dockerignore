@@ -1,7 +1,7 @@
 *
 !src
 !pom.xml
-!process_mml.sh
+!esx_verify.sh
 !iniprel
 !mizar
 !m.lar
