@@ -38,9 +38,11 @@ export TEMP=$OUTPUT/temp
 # Location of NEWFILES
 export NEWFILES=$OUTPUT/NEWFILES
 
-if [ ! -d $TEMP ]; then mkdir $TEMP; fi
+if [ ! -d $TEMP ]; then mkdir -p $TEMP; fi
 
-if [ ! -d $NEWFILES ]; then mkdir $NEWFILES; fi
+if [ ! -d $NEWFILES ]; then mkdir -p $NEWFILES; fi
+
+if [ ! -d $INPUT ]; then mkdir -p $INPUT; fi
 
 # Clearing directories
 rm -rf $TEMP/*
